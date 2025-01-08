@@ -1,8 +1,13 @@
+<script setup lang="ts">
+import './assets/style.css';
+</script>
+
 <template>
   <div>
-    <NuxtLink to="/">HOME</NuxtLink>
-    <NuxtLink to="/about">ABOUT</NuxtLink>
-    <NuxtLink to="/contact">CONTACT</NuxtLink>
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+
+<style scoped></style>
